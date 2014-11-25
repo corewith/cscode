@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A0BE243-E7BD-4F4F-92E6-68F4F98E0172}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EMMS.View</RootNamespace>
+    <AssemblyName>EMMS.View</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\AlterPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\AlterPwd.Designer.cs">
+      <DependentUpon>AlterPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="database\BackupDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="database\BackupDB.Designer.cs">
+      <DependentUpon>BackupDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="database\RecoverDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="database\RecoverDB.Designer.cs">
+      <DependentUpon>RecoverDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entry\Entry_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entry\Entry_Order.Designer.cs">
+      <DependentUpon>Entry_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entry\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="entry\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\Add_Bom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\Add_Bom.Designer.cs">
+      <DependentUpon>Add_Bom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\Goods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\Goods.Designer.cs">
+      <DependentUpon>Goods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\GoodsAttri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\GoodsAttri.Designer.cs">
+      <DependentUpon>GoodsAttri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="goods\Production_Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="goods\Production_Material.Designer.cs">
+      <DependentUpon>Production_Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payed\Payed_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payed\Payed_Order.Designer.cs">
+      <DependentUpon>Payed_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payed\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payed\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paying\Paying_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paying\Paying_Order.Designer.cs">
+      <DependentUpon>Paying_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paying\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paying\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picking\Picking_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picking\Picking_Order.Designer.cs">
+      <DependentUpon>Picking_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plan\Plan_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plan\Plan_Order.Designer.cs">
+      <DependentUpon>Plan_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="plan\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="plan\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchasing\Purchasing_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchasing\Purchasing_Order.Designer.cs">
+      <DependentUpon>Purchasing_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchasing\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchasing\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="purchasing\Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchasing\Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Delivery_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Delivery_Order.Designer.cs">
+      <DependentUpon>Delivery_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Inventory_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Inventory_Order.Designer.cs">
+      <DependentUpon>Inventory_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picking\Query_Picking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picking\Query_Picking.Designer.cs">
+      <DependentUpon>Query_Picking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Query_Critical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Query_Critical.Designer.cs">
+      <DependentUpon>Query_Critical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Query_Delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Query_Delivery.Designer.cs">
+      <DependentUpon>Query_Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Query_Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Query_Inventory.Designer.cs">
+      <DependentUpon>Query_Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Query_Requisition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Query_Requisition.Designer.cs">
+      <DependentUpon>Query_Requisition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Query_Stocking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Query_Stocking.Designer.cs">
+      <DependentUpon>Query_Stocking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Requisition_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Requisition_Order.Designer.cs">
+      <DependentUpon>Requisition_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Stocking_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Stocking_Order.Designer.cs">
+      <DependentUpon>Stocking_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="storage\Storage_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage\Storage_Order.Designer.cs">
+      <DependentUpon>Storage_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staff\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff\Department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff\Department.Designer.cs">
+      <DependentUpon>Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff\Job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff\Job.Designer.cs">
+      <DependentUpon>Job.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="staff\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff\Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse\Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warehouse\Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse\List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warehouse\List.Designer.cs">
+      <DependentUpon>List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse\Warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warehouse\Warehouse.Designer.cs">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="warehouse\WarehouseAttri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="warehouse\WarehouseAttri.Designer.cs">
+      <DependentUpon>WarehouseAttri.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common\AlterPwd.resx">
+      <DependentUpon>AlterPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="database\BackupDB.resx">
+      <DependentUpon>BackupDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="database\RecoverDB.resx">
+      <DependentUpon>RecoverDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entry\Entry_Order.resx">
+      <DependentUpon>Entry_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entry\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\Add_Bom.resx">
+      <DependentUpon>Add_Bom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\Goods.resx">
+      <DependentUpon>Goods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\GoodsAttri.resx">
+      <DependentUpon>GoodsAttri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="goods\Production_Material.resx">
+      <DependentUpon>Production_Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payed\Payed_Order.resx">
+      <DependentUpon>Payed_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payed\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paying\Paying_Order.resx">
+      <DependentUpon>Paying_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paying\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picking\Picking_Order.resx">
+      <DependentUpon>Picking_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plan\Plan_Order.resx">
+      <DependentUpon>Plan_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="plan\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchasing\Purchasing_Order.resx">
+      <DependentUpon>Purchasing_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchasing\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchasing\Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Delivery_Order.resx">
+      <DependentUpon>Delivery_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Inventory_Order.resx">
+      <DependentUpon>Inventory_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picking\Query_Picking.resx">
+      <DependentUpon>Query_Picking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Query_Critical.resx">
+      <DependentUpon>Query_Critical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Query_Delivery.resx">
+      <DependentUpon>Query_Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Query_Inventory.resx">
+      <DependentUpon>Query_Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Query_Requisition.resx">
+      <DependentUpon>Query_Requisition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Query_Stocking.resx">
+      <DependentUpon>Query_Stocking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Requisition_Order.resx">
+      <DependentUpon>Requisition_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Stocking_Order.resx">
+      <DependentUpon>Stocking_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage\Storage_Order.resx">
+      <DependentUpon>Storage_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="staff\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff\Department.resx">
+      <DependentUpon>Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff\Job.resx">
+      <DependentUpon>Job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="staff\Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warehouse\Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warehouse\List.resx">
+      <DependentUpon>List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warehouse\Warehouse.resx">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="warehouse\WarehouseAttri.resx">
+      <DependentUpon>WarehouseAttri.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{2FC90AE6-DF18-44EB-8C4D-D80F43BF4C87}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{1CD3A787-4763-4C1F-8F44-B42E96B507F5}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{52A67ECE-AAF1-4CD9-8561-E487857511B9}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.jpg" />
+    <None Include="Resources\next.jpg" />
+    <None Include="Resources\picking.gif" />
+    <None Include="Resources\demand.gif" />
+    <None Include="Resources\end.jpg" />
+    <None Include="Resources\detail.jpg" />
+    <None Include="Resources\add.jpg" />
+    <None Include="Resources\close.jpg" />
+    <None Include="Resources\save.jpg" />
+    <None Include="Resources\plan.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demand1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\requisition.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mate_storage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod_storage.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retireval.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchasing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entry.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchasing1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entry1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paying.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\requisition1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paying1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveadd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveclose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material_infojpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attri1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attri2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storage_info.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod_mate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouseAttri.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goodsAttri.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\job.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retireval_info.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material_stocking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\critical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invertory4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\critical1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\critical_storage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picking1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\query.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\query1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

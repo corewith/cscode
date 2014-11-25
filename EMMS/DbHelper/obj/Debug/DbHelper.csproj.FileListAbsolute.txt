@@ -1,0 +1,6 @@
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\bin\Debug\EMMS.DbHelper.dll.config
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\bin\Debug\EMMS.DbHelper.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\bin\Debug\EMMS.DbHelper.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\obj\Debug\EMMS.DbHelper.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\obj\Debug\EMMS.DbHelper.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\DbHelper\obj\Debug\DbHelper.csprojResolveAssemblyReference.cache

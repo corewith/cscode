@@ -1,0 +1,11 @@
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.Common.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.Common.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.DbHelper.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.Model.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.DbHelper.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\bin\Debug\EMMS.Model.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\obj\Debug\EMMS.Common.View.resources
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\obj\Debug\EMMS.Common.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\obj\Debug\EMMS.Common.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\test\myvs2010ultimates\WinForm\EMMS\Common\obj\Debug\Common.csproj.GenerateResource.Cache

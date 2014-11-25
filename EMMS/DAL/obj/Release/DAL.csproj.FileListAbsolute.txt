@@ -1,0 +1,9 @@
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.DAL.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.DAL.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.DbHelper.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.Model.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.DbHelper.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\bin\Release\EMMS.Model.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\obj\Release\EMMS.DAL.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\DAL\obj\Release\EMMS.DAL.pdb

@@ -1,0 +1,13 @@
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.BLL.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.BLL.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.Common.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.DAL.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.Model.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.DbHelper.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.Common.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.DAL.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.Model.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\bin\Debug\EMMS.DbHelper.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\obj\Debug\EMMS.BLL.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\obj\Debug\EMMS.BLL.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache

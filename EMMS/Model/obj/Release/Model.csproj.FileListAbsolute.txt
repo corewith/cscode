@@ -1,0 +1,5 @@
+D:\test\myvs2010ultimates\WinForm\EMMS\Model\bin\Release\EMMS.Model.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Model\bin\Release\EMMS.Model.pdb
+D:\test\myvs2010ultimates\WinForm\EMMS\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\test\myvs2010ultimates\WinForm\EMMS\Model\obj\Release\EMMS.Model.dll
+D:\test\myvs2010ultimates\WinForm\EMMS\Model\obj\Release\EMMS.Model.pdb
